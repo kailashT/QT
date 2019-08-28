@@ -1,0 +1,51 @@
+QMessageBox::information(this, "Title", "Customer Data Saved successfully","OK");
+
+
+ Application Flow
+                  start
+              check for DB
+              if (DB present)
+                 GOTO: INITDB
+              else
+                  messagebox(whether to generate new database or close application)
+                  yes will continue the application
+                  No will close application
+
+              Go to create database()
+                  Table 1
+                  Table 2
+                  Table 3
+                  Qmessage (Database is ready)
+ INITDB:
+              Init database create object
+              show window
+
+
+
+Work to do :
+        Table formating in qt
+
+
+
+
+Table Formating of data
+
+Tables
+
+Required data
+
+
+    For a User:
+
+Project:
+    1>  store customer Info
+            Create Customer info Table
+            Create gui
+            Store data
+    2>  store daily data
+            Create Customer info Table
+            Create gui
+            Store data
+    3>  Show data
+            Get data from data base
+            Print it in table format on screen
